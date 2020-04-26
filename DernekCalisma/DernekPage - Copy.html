@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Hürriyet Mah. Eğitim</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Poppins", sans-serif
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .w3-half img {
+    margin-bottom: -6px;
+    margin-top: 16px;
+    opacity: 0.8;
+    cursor: pointer
+  }
+
+  .w3-half img:hover {
+    opacity: 1
+  }
+</style>
+
+<body>
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-indigo w3-collapse w3-top w3-large w3-padding" style="z-index:9999;width:300px;font-weight:bold;"
+    id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+      style="width:100%;font-size:22px;">Kapat</a>
+    <div class="w3-container">
+      <h3 class="w3-padding-64"><b>Hürriyet Mahallesi<br>Eğitim ve Kültür Derneği</b></h3>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Ana Sayfa</a>
+      <a href="#hakkimizda" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hakkımızda</a>
+      <a href="#hesaplar" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hesap Numaraları</a>
+      <a href="#bagisyap" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Bağış Yap</a>
+    </div>
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large w3-indigo w3-xlarge w3-padding" style="z-index:999;">
+    <a href="javascript:void(0)" class="w3-button w3-indigo w3-margin-right" onclick="w3_open()">&#9776;</a>
+    <span>Hürriyet Mah. Eğitim</span>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+
+
+
+    <!-- Hakkımızda -->
+    <div class="w3-container" id="hakkimizda" style="margin-top:80px">
+      <h1 class="w3-xxxlarge w3-text-indigo"><b>Hakkımızda</b></h1>
+      <!-- <hr style="width:50px;border:5px solid #3f51b5" class="w3-round"> -->
+      <p>Talebelirimiz için çalışıyoruz</p>
+      <p>
+        Derneğimiz, eğitim çağındaki öğrencilerin ihtiyaçlarını karşılamak için kurulmuştur. Mukaddes olduğuna
+        inandığımız bu çabalarımızda, sizleri de yanımızda görmek bizi sevindiriyor.
+        Sitemizde çalışmalarımız hakkında bilgi alabilir, kredi kartınızla kolayca bağış yaparak bize katkıda
+        bulunabilirsiniz.
+      </p>
+    </div>
+
+    <!-- Hesaplar -->
+    <div class="w3-container" id="hesaplar" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-indigo"><b>Hesap Numaraları</b></h1>
+      <!-- <hr style="width:50px;border:5px solid #3f51b5" class="w3-round"> -->
+      <table class="w3-table">
+          <tr>
+            <th>Hesap Adı</th>
+            <th>Banka Adı</th>
+            <th>Iban</th>
+          </tr>
+          <tr>
+            <td>Tuzla Eğitime Yardım Derneği</td>
+            <td>Vakıfbank Tuzla Şubesi</td>
+            <td>TR98 0001 5001 5800 7300 6992 98</td>
+          </tr>
+          </table>
+      <p>Yapabileceğiniz bağışlar</p>
+      <p><b>Yapmak istediğiniz bağışı seçebilirsiniz</b>:</p>
+    </div>
+
+    <!-- Bağış türleri -->
+    <div class="w3-row-padding w3-grayscale">
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <!-- <img src="/w3images/team2.jpg" alt="John" style="width:100%"> -->
+          <div class="w3-container">
+            <h3>Sabit Tutar</h3>
+            <!-- <p class="w3-opacity">CEO & Founder</p> -->
+            <p>Tahsil Çağındaki Talebelerimizin Yararına Kullanacağımız BAĞIŞLARINIZI Buradan Verebilirsiniz.</p>
+            <button class="w3-button w3-indigo w3-padding-large w3-hover-black w3-block w3-margin-bottom">Bağış
+              Yap</button>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <!-- <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"> -->
+          <div class="w3-container">
+            <h3>Kumanya 1</h3>
+            <!-- <p class="w3-opacity">Designer</p> -->
+            <p>Tahsil Çağındaki Talebelerimizin Yararına Kullanacağımız BAĞIŞLARINIZI Buradan Verebilirsiniz.</p>
+            <button class="w3-button w3-indigo w3-padding-large w3-hover-black w3-block w3-margin-bottom">Bağış
+              Yap</button>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <!-- <img src="/w3images/team3.jpg" alt="Mike" style="width:100%"> -->
+          <div class="w3-container">
+            <h3>Kumanya 2</h3>
+            <!-- <p class="w3-opacity">Architect</p> -->
+            <p>Tahsil Çağındaki Talebelerimizin Yararına Kullanacağımız BAĞIŞLARINIZI Buradan Verebilirsiniz.</p>
+            <button class="w3-button w3-indigo w3-padding-large w3-hover-black w3-block w3-margin-bottom">Bağış
+              Yap</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bağış Yap -->
+    <div class="w3-container" id="bagisyap" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-indigo"><b>Bağış Kabul</b></h1>
+      <!-- <hr style="width:40px;border:5px solid #3f51b5" class="w3-round"> -->
+      <p>Bağış yapmak için aşağıdaki formu tamamlayınız.</p>
+      <form action="/action_page.php" target="_blank" class="" id="bagisform">
+
+        <h3 class="">Bağışçı Bilgileri</h3>
+        <div class="w3-row">
+          <div class="w3-half">
+            <div class="w3-section w3-margin-right">
+              <label>Adı Soyadı</label>
+              <input class="w3-input w3-border" type="text" name="adsoyad" required>
+            </div>
+            <div class="w3-section w3-margin-right">
+              <label>Email</label>
+              <input class="w3-input w3-border" type="text" name="email" required>
+            </div>
+          </div>
+          <div class="w3-half">
+            <div class="w3-section w3-margin-right">
+              <label>Cep Telefonu</label>
+              <input class="w3-input w3-border" type="text" name="ceptel" placeholder="Örn: 5xxxxxxxxx" required>
+            </div>
+            <div class="w3-section w3-margin-right">
+                <label>Bağış Tutarı(TL)</label>
+                <input class="w3-input w3-border" type="number" name="bagistutar" max="999999" required>
+              </div>
+          </div>
+        </div>
+        <h3>Kart Bilgileri</h3>
+        <div class="w3-row">
+          <div class="w3-half">
+            <div class="w3-section w3-margin-right">
+              <label>Kart Numarası</label>
+              <input class="w3-input w3-border" type="credit" name="cardnumber" id="cardnumber" required>
+            </div>
+            <div class="w3-section w3-margin-right">
+              <label>Kart Sahibinin Adı Soyadı</label>
+              <input class="w3-input w3-border" type="text" name="cardadsoyad" id="cardadsoyad" required>
+            </div>
+            <div class="w3-row">
+              <div class="w3-section w3-half">
+                <label>Son Kullanma Tarihi (Ay Yıl)</label>
+                <div class="w3-row">
+                  <div class="w3-half" style="padding-right: 16px;">
+                    <input class="w3-input w3-border" type="number" name="carday" id="carday" min="1" max="12"
+                      placeholder="AA" required>
+                  </div>
+                  <div class="w3-half" style="padding-right: 16px;">
+                    <input class="w3-input w3-border" type="number" name="caryil" id="cardyil" min="20" max="90"
+                      placeholder="YY" required>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-section w3-half">
+                <div class="w3-margin-right">
+                  <label>Güvenlik Kodu (CVC2)</label>
+                  <input class="w3-input w3-border" type="number" name="cvc" id="cvc" min="100" max="9999" required>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-half">
+            <div class="w3-section card-wrapper">
+
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="w3-button w3-block w3-padding-large w3-indigo w3-margin-bottom">Bağış Yap</button>
+      </form>
+      <div class="w3-row">
+        <div class="w3-half">
+            <p class="w3-center"><a href="guvenlik.pdf" title="Güvenlik Sözleşmesi" target="_blank"
+              class="w3-hover-opacity">Güvenlik Sözleşmesi</a></p>
+        </div>
+        <div class="w3-half w3-center">
+            <img class="w3-center" src="ssl.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- W3.CSS Container -->
+  <div class="w3-main" style="margin-left:300px;">
+    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+        <div class="w3-row">
+            <div class="w3-third w3-center">
+                <h4 class=""><i class="fa fa-phone" style="margin-right: 10px"></i>İRTİBAT NO</h4>
+                <p class="">0216 447 14 61</p>
+            </div>
+            <div class="w3-third w3-center">
+                <h4 class=""><i class="fa fa-map-marker" style="margin-right: 10px"></i>ADRES</h4>
+                <p class="">Hürriyet Mah. Uzmanlar Cad. No:46 Kartal/İstanbul</p>
+            </div>
+            <div class="w3-third w3-center">
+                <h4 class=""><i class="fa fa-envelope" style="margin-right: 10px"></i>E-MAIL</h4>
+                <p class="">bilgi@hurriyetegitimvekultur.org.tr</p>
+            </div>
+          </div>
+    </div>
+ </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+  </script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/card.js"></script>
+  <script>
+    new Card({
+      form: '#bagisform',
+      container: '.card-wrapper',
+      formSelectors: {
+        numberInput: 'input#cardnumber',
+        cvcInput: 'input#cvc',
+        nameInput: 'input#cardadsoyad',
+        expiryInput: 'input[name="carday"], input[name="cardyil"]'
+      }
+    });
+  </script>
+</body>
+
+</html>
